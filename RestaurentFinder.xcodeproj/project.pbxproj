@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7ECD5C1DCC3E11009AFCF7 /* RFAAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7ECD5B1DCC3E11009AFCF7 /* RFAAddress.swift */; };
+		3F7ECD5D1DCC3E11009AFCF7 /* RFAAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7ECD5B1DCC3E11009AFCF7 /* RFAAddress.swift */; };
+		3F7ECD611DCCEEEC009AFCF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7ECD601DCCEEEC009AFCF7 /* MapKit.framework */; };
+		3F7ECD631DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7ECD621DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift */; };
+		3F7ECD641DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7ECD621DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift */; };
+		3FB9B9E11DCAADAF0092EC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9B9E01DCAADAF0092EC3B /* AppDelegate.swift */; };
+		3FB9B9E81DCAADB00092EC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9B9E61DCAADB00092EC3B /* Main.storyboard */; };
+		3FB9B9ED1DCAADB00092EC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9B9EB1DCAADB00092EC3B /* LaunchScreen.storyboard */; };
+		3FB9B9F81DCAADB00092EC3B /* RestaurentFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9B9F71DCAADB00092EC3B /* RestaurentFinderTests.swift */; };
+		3FB9BA031DCAADB00092EC3B /* RestaurentFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA021DCAADB00092EC3B /* RestaurentFinderUITests.swift */; };
+		3FB9BA111DCAAF820092EC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9BA101DCAAF820092EC3B /* Assets.xcassets */; };
+		3FB9BA131DCAF34B0092EC3B /* RFAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA121DCAF34B0092EC3B /* RFAConstants.swift */; };
+		3FB9BA151DCAFB950092EC3B /* RFARestaurent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA141DCAFB950092EC3B /* RFARestaurent.swift */; };
+		3FB9BA161DCAFB950092EC3B /* RFARestaurent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA141DCAFB950092EC3B /* RFARestaurent.swift */; };
+		3FB9BA181DCB07FF0092EC3B /* RFARestaurentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA171DCB07FF0092EC3B /* RFARestaurentCell.swift */; };
+		3FB9BA191DCB07FF0092EC3B /* RFARestaurentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA171DCB07FF0092EC3B /* RFARestaurentCell.swift */; };
+		3FB9BA1B1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA1A1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift */; };
+		3FB9BA1C1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA1A1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift */; };
+		3FB9BA1E1DCBD6090092EC3B /* RFAExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA1D1DCBD6090092EC3B /* RFAExtensions.swift */; };
+		3FB9BA1F1DCBD6090092EC3B /* RFAExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA1D1DCBD6090092EC3B /* RFAExtensions.swift */; };
+		3FB9BA211DCBDCB30092EC3B /* RFAWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA201DCBDCB30092EC3B /* RFAWebViewController.swift */; };
+		3FB9BA221DCBDCB30092EC3B /* RFAWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9BA201DCBDCB30092EC3B /* RFAWebViewController.swift */; };
+		3FE305BE1DCD7A4F00B79EC5 /* RFAParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE305BD1DCD7A4F00B79EC5 /* RFAParser.swift */; };
+		3FE305BF1DCD7A4F00B79EC5 /* RFAParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE305BD1DCD7A4F00B79EC5 /* RFAParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB9B9F41DCAADB00092EC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB9B9D51DCAADAF0092EC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB9B9DC1DCAADAF0092EC3B;
+			remoteInfo = RestaurentFinder;
+		};
+		3FB9B9FF1DCAADB00092EC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB9B9D51DCAADAF0092EC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB9B9DC1DCAADAF0092EC3B;
+			remoteInfo = RestaurentFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7ECD5B1DCC3E11009AFCF7 /* RFAAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFAAddress.swift; sourceTree = "<group>"; };
+		3F7ECD601DCCEEEC009AFCF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F7ECD621DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFARestaurentDetailViewController.swift; sourceTree = "<group>"; };
+		3FB9B9DD1DCAADAF0092EC3B /* RestaurentFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurentFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB9B9E01DCAADAF0092EC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB9B9E71DCAADB00092EC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB9B9EC1DCAADB00092EC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB9B9EE1DCAADB00092EC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB9B9F31DCAADB00092EC3B /* RestaurentFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurentFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB9B9F71DCAADB00092EC3B /* RestaurentFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurentFinderTests.swift; sourceTree = "<group>"; };
+		3FB9B9F91DCAADB00092EC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB9B9FE1DCAADB00092EC3B /* RestaurentFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurentFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB9BA021DCAADB00092EC3B /* RestaurentFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurentFinderUITests.swift; sourceTree = "<group>"; };
+		3FB9BA041DCAADB00092EC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB9BA101DCAAF820092EC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB9BA121DCAF34B0092EC3B /* RFAConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFAConstants.swift; sourceTree = "<group>"; };
+		3FB9BA141DCAFB950092EC3B /* RFARestaurent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFARestaurent.swift; sourceTree = "<group>"; };
+		3FB9BA171DCB07FF0092EC3B /* RFARestaurentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFARestaurentCell.swift; sourceTree = "<group>"; };
+		3FB9BA1A1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFARestaurentsCollectionViewController.swift; sourceTree = "<group>"; };
+		3FB9BA1D1DCBD6090092EC3B /* RFAExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFAExtensions.swift; sourceTree = "<group>"; };
+		3FB9BA201DCBDCB30092EC3B /* RFAWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFAWebViewController.swift; sourceTree = "<group>"; };
+		3FE305BD1DCD7A4F00B79EC5 /* RFAParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFAParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB9B9DA1DCAADAF0092EC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7ECD611DCCEEEC009AFCF7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9F01DCAADB00092EC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9FB1DCAADB00092EC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7ECD5E1DCC3E1B009AFCF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F7ECD5B1DCC3E11009AFCF7 /* RFAAddress.swift */,
+				3FB9BA141DCAFB950092EC3B /* RFARestaurent.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3F7ECD5F1DCCEEEC009AFCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7ECD601DCCEEEC009AFCF7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FB9B9D41DCAADAF0092EC3B = {
+			isa = PBXGroup;
+			children = (
+				3FB9B9DF1DCAADAF0092EC3B /* RestaurentFinder */,
+				3FB9B9F61DCAADB00092EC3B /* RestaurentFinderTests */,
+				3FB9BA011DCAADB00092EC3B /* RestaurentFinderUITests */,
+				3FB9B9DE1DCAADAF0092EC3B /* Products */,
+				3F7ECD5F1DCCEEEC009AFCF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB9B9DE1DCAADAF0092EC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9B9DD1DCAADAF0092EC3B /* RestaurentFinder.app */,
+				3FB9B9F31DCAADB00092EC3B /* RestaurentFinderTests.xctest */,
+				3FB9B9FE1DCAADB00092EC3B /* RestaurentFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB9B9DF1DCAADAF0092EC3B /* RestaurentFinder */ = {
+			isa = PBXGroup;
+			children = (
+				3FE305C11DCDA46800B79EC5 /* Miscellaneous */,
+				3FE305C01DCDA44F00B79EC5 /* Storyboards */,
+				3F7ECD5E1DCC3E1B009AFCF7 /* Models */,
+				3FB9B9E01DCAADAF0092EC3B /* AppDelegate.swift */,
+				3FB9BA1A1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift */,
+				3FB9BA171DCB07FF0092EC3B /* RFARestaurentCell.swift */,
+				3F7ECD621DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift */,
+				3FB9BA201DCBDCB30092EC3B /* RFAWebViewController.swift */,
+				3FB9BA101DCAAF820092EC3B /* Assets.xcassets */,
+				3FB9B9EE1DCAADB00092EC3B /* Info.plist */,
+			);
+			path = RestaurentFinder;
+			sourceTree = "<group>";
+		};
+		3FB9B9F61DCAADB00092EC3B /* RestaurentFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9B9F71DCAADB00092EC3B /* RestaurentFinderTests.swift */,
+				3FB9B9F91DCAADB00092EC3B /* Info.plist */,
+			);
+			path = RestaurentFinderTests;
+			sourceTree = "<group>";
+		};
+		3FB9BA011DCAADB00092EC3B /* RestaurentFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9BA021DCAADB00092EC3B /* RestaurentFinderUITests.swift */,
+				3FB9BA041DCAADB00092EC3B /* Info.plist */,
+			);
+			path = RestaurentFinderUITests;
+			sourceTree = "<group>";
+		};
+		3FE305C01DCDA44F00B79EC5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9B9E61DCAADB00092EC3B /* Main.storyboard */,
+				3FB9B9EB1DCAADB00092EC3B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3FE305C11DCDA46800B79EC5 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9BA1D1DCBD6090092EC3B /* RFAExtensions.swift */,
+				3FB9BA121DCAF34B0092EC3B /* RFAConstants.swift */,
+				3FE305BD1DCD7A4F00B79EC5 /* RFAParser.swift */,
+			);
+			name = Miscellaneous;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB9B9DC1DCAADAF0092EC3B /* RestaurentFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB9BA071DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinder" */;
+			buildPhases = (
+				3FB9B9D91DCAADAF0092EC3B /* Sources */,
+				3FB9B9DA1DCAADAF0092EC3B /* Frameworks */,
+				3FB9B9DB1DCAADAF0092EC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurentFinder;
+			productName = RestaurentFinder;
+			productReference = 3FB9B9DD1DCAADAF0092EC3B /* RestaurentFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB9B9F21DCAADB00092EC3B /* RestaurentFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB9BA0A1DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinderTests" */;
+			buildPhases = (
+				3FB9B9EF1DCAADB00092EC3B /* Sources */,
+				3FB9B9F01DCAADB00092EC3B /* Frameworks */,
+				3FB9B9F11DCAADB00092EC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB9B9F51DCAADB00092EC3B /* PBXTargetDependency */,
+			);
+			name = RestaurentFinderTests;
+			productName = RestaurentFinderTests;
+			productReference = 3FB9B9F31DCAADB00092EC3B /* RestaurentFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB9B9FD1DCAADB00092EC3B /* RestaurentFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB9BA0D1DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinderUITests" */;
+			buildPhases = (
+				3FB9B9FA1DCAADB00092EC3B /* Sources */,
+				3FB9B9FB1DCAADB00092EC3B /* Frameworks */,
+				3FB9B9FC1DCAADB00092EC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB9BA001DCAADB00092EC3B /* PBXTargetDependency */,
+			);
+			name = RestaurentFinderUITests;
+			productName = RestaurentFinderUITests;
+			productReference = 3FB9B9FE1DCAADB00092EC3B /* RestaurentFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB9B9D51DCAADAF0092EC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Shirish;
+				TargetAttributes = {
+					3FB9B9DC1DCAADAF0092EC3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PS8GCG985K;
+						ProvisioningStyle = Automatic;
+					};
+					3FB9B9F21DCAADB00092EC3B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB9B9DC1DCAADAF0092EC3B;
+					};
+					3FB9B9FD1DCAADB00092EC3B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB9B9DC1DCAADAF0092EC3B;
+					};
+				};
+			};
+			buildConfigurationList = 3FB9B9D81DCAADAF0092EC3B /* Build configuration list for PBXProject "RestaurentFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB9B9D41DCAADAF0092EC3B;
+			productRefGroup = 3FB9B9DE1DCAADAF0092EC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB9B9DC1DCAADAF0092EC3B /* RestaurentFinder */,
+				3FB9B9F21DCAADB00092EC3B /* RestaurentFinderTests */,
+				3FB9B9FD1DCAADB00092EC3B /* RestaurentFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB9B9DB1DCAADAF0092EC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB9B9ED1DCAADB00092EC3B /* LaunchScreen.storyboard in Resources */,
+				3FB9BA111DCAAF820092EC3B /* Assets.xcassets in Resources */,
+				3FB9B9E81DCAADB00092EC3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9F11DCAADB00092EC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9FC1DCAADB00092EC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB9B9D91DCAADAF0092EC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE305BE1DCD7A4F00B79EC5 /* RFAParser.swift in Sources */,
+				3FB9BA1B1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift in Sources */,
+				3FB9BA151DCAFB950092EC3B /* RFARestaurent.swift in Sources */,
+				3F7ECD5C1DCC3E11009AFCF7 /* RFAAddress.swift in Sources */,
+				3FB9BA181DCB07FF0092EC3B /* RFARestaurentCell.swift in Sources */,
+				3F7ECD631DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift in Sources */,
+				3FB9BA211DCBDCB30092EC3B /* RFAWebViewController.swift in Sources */,
+				3FB9B9E11DCAADAF0092EC3B /* AppDelegate.swift in Sources */,
+				3FB9BA131DCAF34B0092EC3B /* RFAConstants.swift in Sources */,
+				3FB9BA1E1DCBD6090092EC3B /* RFAExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9EF1DCAADB00092EC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB9BA161DCAFB950092EC3B /* RFARestaurent.swift in Sources */,
+				3FB9BA191DCB07FF0092EC3B /* RFARestaurentCell.swift in Sources */,
+				3F7ECD641DCCF0ED009AFCF7 /* RFARestaurentDetailViewController.swift in Sources */,
+				3F7ECD5D1DCC3E11009AFCF7 /* RFAAddress.swift in Sources */,
+				3FB9B9F81DCAADB00092EC3B /* RestaurentFinderTests.swift in Sources */,
+				3FB9BA1C1DCBB30E0092EC3B /* RFARestaurentsCollectionViewController.swift in Sources */,
+				3FB9BA1F1DCBD6090092EC3B /* RFAExtensions.swift in Sources */,
+				3FB9BA221DCBDCB30092EC3B /* RFAWebViewController.swift in Sources */,
+				3FE305BF1DCD7A4F00B79EC5 /* RFAParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB9B9FA1DCAADB00092EC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB9BA031DCAADB00092EC3B /* RestaurentFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB9B9F51DCAADB00092EC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB9B9DC1DCAADAF0092EC3B /* RestaurentFinder */;
+			targetProxy = 3FB9B9F41DCAADB00092EC3B /* PBXContainerItemProxy */;
+		};
+		3FB9BA001DCAADB00092EC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB9B9DC1DCAADAF0092EC3B /* RestaurentFinder */;
+			targetProxy = 3FB9B9FF1DCAADB00092EC3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB9B9E61DCAADB00092EC3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB9B9E71DCAADB00092EC3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB9B9EB1DCAADB00092EC3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB9B9EC1DCAADB00092EC3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB9BA051DCAADB00092EC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB9BA061DCAADB00092EC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB9BA081DCAADB00092EC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PS8GCG985K;
+				INFOPLIST_FILE = RestaurentFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FB9BA091DCAADB00092EC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PS8GCG985K;
+				INFOPLIST_FILE = RestaurentFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FB9BA0B1DCAADB00092EC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestaurentFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurentFinder.app/RestaurentFinder";
+			};
+			name = Debug;
+		};
+		3FB9BA0C1DCAADB00092EC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestaurentFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurentFinder.app/RestaurentFinder";
+			};
+			name = Release;
+		};
+		3FB9BA0E1DCAADB00092EC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RestaurentFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RestaurentFinder;
+			};
+			name = Debug;
+		};
+		3FB9BA0F1DCAADB00092EC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RestaurentFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shirish.RestaurentFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RestaurentFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB9B9D81DCAADAF0092EC3B /* Build configuration list for PBXProject "RestaurentFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB9BA051DCAADB00092EC3B /* Debug */,
+				3FB9BA061DCAADB00092EC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB9BA071DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB9BA081DCAADB00092EC3B /* Debug */,
+				3FB9BA091DCAADB00092EC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB9BA0A1DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB9BA0B1DCAADB00092EC3B /* Debug */,
+				3FB9BA0C1DCAADB00092EC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB9BA0D1DCAADB00092EC3B /* Build configuration list for PBXNativeTarget "RestaurentFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB9BA0E1DCAADB00092EC3B /* Debug */,
+				3FB9BA0F1DCAADB00092EC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB9B9D51DCAADAF0092EC3B /* Project object */;
+}
